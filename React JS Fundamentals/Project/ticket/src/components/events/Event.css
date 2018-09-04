@@ -1,0 +1,44 @@
+.card:hover{
+    background: lightgrey
+}
+
+.card{
+    position: relative;
+    width: 18rem;
+    display: inline-block
+}
+
+ .card-img-top{
+    object-fit:scale-down;
+    width: 259px;
+    height: 172px;
+ }
+
+ .progress {
+    position: relative;
+  }
+  
+  .progress-bar-title {
+    position: absolute;
+    text-align: center;
+    line-height: 20px; /* line-height should be equal to bar height */
+    overflow: hidden;
+    color: black;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+
+  .edit{
+    position: relative;
+    left: 0px;
+    bottom: -20px;
+    background-color: green
+  }
+  .delete{
+    position: relative;
+    left: 10px;
+    bottom: -20px;
+    background-color: red
+  }

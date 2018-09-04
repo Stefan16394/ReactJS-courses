@@ -1,0 +1,43 @@
+
+.formbuy{
+    position: relative;
+    width: 100%;
+    background: #E6E6E6;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.image{
+    object-fit:scale-down;
+    width: 259px;
+    height: 172px;
+}
+
+.eventTitle{
+    position: relative;
+    left: 170px;
+    bottom: 50px;
+}
+
+.buyForm{
+    right: 50px;
+    position: relative;
+    bottom: -30px;
+}
+
+.eventTime{
+    background-color: green;
+    color: floralwhite;
+    position: absolute;
+}
+
+ .total{
+    margin: 5px;
+    width: 120px;
+} 
+
+.purchaseForm{
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+}
